@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>projet web</title>
+
+<!--CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+<link rel="stylesheet" href="pweb.css">
+<!--CSS-->
+
+<!--Font-->
+
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<!--Font-->
+
+</head>
+<body onload="popup()">
+<a href="javascript:fenetre1()">
+
+</body>
+
+
+    <!--Header-->
+        <div class="block">
+        <header class="header">
+            <a href="pweb.html" class="header-logo">JMD QUIZZ</a>
+            <i class="fas fa-question"></i>
+            <nav class="header-menu">
+                <a href="#">Mon Compte</a>
+            </nav>  
+        </header>
+        </div>
+    <!--Header-->
+            
+    <!-- Banner -->
+    <div class="block">
+        <div class="banner">
+            <img src="img/wc.jpg" class="banner-image">
+            <div class="banner-content">
+                <h1 class="title is-1">Teste t'as culture G !</h1>
+                <h2 class="subtitle">Inscris toi ou connecte toi pour suivre tous nos nouveaux quizz et pour pouvoir partagez t'es meilleures scores !</h2>
+                <a href="javascript:fenetre1()"> <input type="button" value="Inscription"> </a>
+                <a href="javascript:fenetre2()"> <input type="button" value="Connection"> </a>
+                
+            </div>
+        </div>
+       
+        </div>
+    <script>
+        // Début 
+    function popup() {
+      Pub=window.open("test.html","pub","toolbar=no,location=yes,directories=no,menubar=no,scrollbars=yes,status=yes,resizable=1,width=450, height=100");
+    }
+    // Fin -->
+    </script>
+    <script>
+        function fenetre1(){
+            var argument3 = "height=100, width=250, left=300, top=150, resizable=yes";
+            win = window.open("test.html","Inscription", argument3);
+        }
+        function fenetre2(){
+            var argument3 = "height=100, width=250, left=300, top=150, resizable=yes";
+            win = window.open("test2.html","Connection", argument3);
+        }
+    </script>
+    <!-- Banner -->
+
+     <!--quizz 1--> 
+
+     <div class="fyrebox_quiz" data-gid="9D8wGGg6j" data-oid="B9OrG42oq" />
+     <link href="https://www.fyrebox.com/play/les-drapeaux_9D8wGGg6j" rel="stylesheet">
+    </div>
+     <script src="https://cdn.fyrebox.com/javascripts/fyrebox.min.js?2" defer="defer" async></script>
+    
+     <!--quizz 1-->
+
+                
+</body>
+</html>

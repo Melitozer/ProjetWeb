@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>inscription</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+        <form action="/signup" method="post">
+            <p>
+              <label>Inscription</label><br>
+              <label>
+                <input type="radio" name="title" value="mr">
+                Mr
+              </label>
+              <label>
+                <input type="radio" name="title" value="mrs">
+                Mme
+              </label>
+              <label>
+                <input type="radio" name="title" value="miss">
+                Mlle
+              </label>
+            </p>
+            <p>
+              <label>Prénom</label><br>
+              <input type="text" name="first_name">
+            </p>
+            <p>
+              <label>Nom</label><br>
+              <input type="text" name="last_name">
+            </p>
+            <p>
+              <label>Email</label><br>
+              <input type="email" name="email" required>
+            </p>
+            <p>
+              <label>N° de téléphone</label><br>
+              <input type="tel" name="phone">
+            </p>
+            <p>
+              <label>Mot de passe</label><br>
+              <input type="password" name="password">
+            </p>
+            <p>
+              <label>Pays</label><br>
+              <select>
+                <option>France</option>
+                <option>Etats-Unis</option>
+                <option>Canada</option>
+                <option>Espagne</option>
+                <option>Pays-Bas</option>
+              </select>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" value="terms">
+                J'accepte les <a href="/terms">termes et conditions d'utilisations</a>
+              </label>
+            </p>
+            <p>
+              <button>S'inscrire</button>
+              <button type="reset">Annuler</button>
+            </p>
+          
+</body>
+</html>
